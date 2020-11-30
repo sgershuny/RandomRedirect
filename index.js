@@ -2,4 +2,4 @@ let webArray = ['https://www.bbc.co.uk/sport/football', 'https://www.bbc.co.uk/n
 
 let website = webArray[Math.floor(Math.random() * webArray.length)];
 console.log(website)
-//window.location.replace(website);
+window.location.replace(website);
