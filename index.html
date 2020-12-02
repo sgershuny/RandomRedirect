@@ -4,8 +4,33 @@
     <base target="_top">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="index.js"></script>
+    
   <body>
     <h1>HELLO</h1>
+    <script src="index.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBqmLHeJitNex17I3O702VCcuzjnQIot54",
+        authDomain: "linkroulette-42293.firebaseapp.com",
+        databaseURL: "https://linkroulette-42293.firebaseio.com",
+        projectId: "linkroulette-42293",
+        storageBucket: "linkroulette-42293.appspot.com",
+        messagingSenderId: "1064670795151",
+        appId: "1:1064670795151:web:c338fa5d71d456eddae7fa",
+        measurementId: "G-8N5EP38YWV"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
